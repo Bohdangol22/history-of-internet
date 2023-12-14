@@ -1,0 +1,114 @@
+html{
+    box-sizing:border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #5c5c5e;
+}
+
+.header {
+    border-bottom: 1px solid #cacad6;
+    background-color: white;  
+position: fixed;  
+top: 0;  
+z-index: 100;  
+width: 100%;
+
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+}
+
+.img-logo {
+width: 80px;
+height: 80px;
+}
+.menu{
+    cursor: pointer;
+    display: flex;
+    gap: 0 40px; 
+    font-size: 18px;
+    position: absolute;
+    justify-content: right;
+    margin-left: 250px;
+}
+
+.header-btn {
+    cursor: pointer;
+border-width: 1px;
+border-color: #5c5c5e;
+border-radius: 30px;
+background-color: white;
+padding: 10px 20px;
+font-size: 18px;
+
+
+}
+.header-btn:hover{
+    background-color:black;
+    color: white;
+    
+}
+
+.ua-1990{
+    margin-top: 70px;
+}
+ 
+.ua-2000{
+    margin-top: 70px;
+    margin-left: 700px;
+}
+.ua-2015{
+    margin-top: 70px;
+}
+.ua2022{
+    margin-top:70px ;
+    
+}
+
+
+.footer {
+    background-color: beige;
+    
+    }
+    
+    .footer-info {
+        font-size: 13px;
+    
+    }
+    .author {
+        font-size: 13px;
+    
+    }
+    .about{
+         margin-left: 500px;
+        padding-top: 5px;
+         padding-bottom: 20px;
+         
+    }
